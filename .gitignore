@@ -11,6 +11,7 @@ server/node_modules/
 server/.env
 server/dist/
 server/build/
+server/src/uploads/*
 
 # Logs
 *.log
