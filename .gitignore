@@ -12,6 +12,7 @@ server/.env
 server/dist/
 server/build/
 server/src/uploads/*
+!server/src/uploads/.gitkeep
 
 # Logs
 *.log
