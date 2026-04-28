@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+.glass {
+  @apply bg-white/60 dark:bg-slate-900/50 backdrop-blur-xl border border-white/20 dark:border-white/10 shadow-glass;
+}
+
+.grad-bg {
+  background: radial-gradient(1200px circle at 0% 0%, rgba(99,102,241,0.22), transparent 50%),
+    radial-gradient(900px circle at 100% 20%, rgba(34,211,238,0.18), transparent 45%),
+    radial-gradient(700px circle at 20% 100%, rgba(244,114,182,0.16), transparent 55%);
+}
+
